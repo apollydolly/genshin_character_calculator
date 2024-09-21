@@ -1,0 +1,10 @@
+<nav>
+	<a href = "index.php?page=calc">Калькулятор</a> 
+	<a href = "index.php?page=todo">Архив расчетов</a>
+	<?php if(isset($_SESSION['login'])){ ?>
+	  	<a href = "index.php?page=signin" >Аккаунт: <?php echo $_SESSION['login']; ?></a> 
+	<?php }
+	else{ ?>
+		<a href = "index.php?page=signin">Войти</a>
+	<?php } ?> 
+</nav>

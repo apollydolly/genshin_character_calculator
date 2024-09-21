@@ -1,0 +1,290 @@
+html{
+	background: #A2B4F1;
+}
+
+header{
+	height: 60px;
+	background: #455996;
+	padding: 10px;
+	font-size: 40px; 
+	font-family: cursive; 
+	color: #20326A;
+	margin: 10px; 
+}
+
+nav{
+	padding: 10px;
+	margin: 10px; 
+	height: 30px;
+	background: #314581;
+	text-align: center;
+	font-size: 20px; 
+	font-family: cursive;
+}
+
+h1{
+	font-size: 30px; 
+	text-align: center;
+	font-family: cursive;
+	color: #D7DFF9;
+}
+
+a:link {
+	color: #ADBDF0; 
+}
+
+a:visited {
+	color: #A5B8F8;
+}
+
+a:active {
+	color: #D7DFF9;
+}
+
+div.pers_calc{
+	padding: 5px;
+	margin: 20px 100px;
+	background: #21305E;
+	text-align: center;
+}
+
+div.pers{
+	padding: 10px;
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	font-size: 20px; 
+	font-family: cursive; 
+	color: #D7DFF9;
+	vertical-align: top;
+}
+
+div.lev_tal{
+	display: inline-block;
+	width: 30%;
+	padding: 2px;
+}
+
+div.sign{
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	color: #D7DFF9;
+	font-size: 23px;
+	font-family: cursive;
+}
+
+div.todo_rez{
+	background-color: #121D3F;
+	display: inline-block;
+	width: 283px;
+	margin: 10px;
+	font-size: 20px; 
+	font-family: cursive; 
+	color: #D7DFF9;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px 0;
+}
+
+div.materials{
+	padding: 5px;
+}
+
+input[type=number]{
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	border: none;
+	border-radius: 30px;
+}
+
+input[type=password]{
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 30px;
+	width: 300px;
+	margin: 10px;
+	placeholder: #D7DFF9;
+}
+
+input::placeholder{
+	color: #BCC6E6;
+	padding-left: 10px;
+	font-family: cursive;
+}
+
+input[type=text]{
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	border: none;
+	border-radius: 30px;
+	width: 300px;
+	margin: 10px;
+}
+
+input:hover{
+	cursor: pointer;
+}
+
+p.sign{
+	font-family: cursive;
+	font-size: 20px;
+	color: #D7DFF9;
+}
+
+p.idrez{
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+p.persname{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+p.levels{
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 13px;
+	text-align: left;
+}
+
+p.delbut{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 5px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	font-family: cursive;
+	cursor: pointer;
+	padding: 10px;
+	border: 1px solid #D7DFF9;
+	border-radius: 50%;
+	width: 30px;
+}
+ 
+.form_radio_btn input[type=radio]:checked + label {
+	background: #121D3F;
+}
+
+select{
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	border: none;
+	border-radius: 30px;
+}
+
+select:hover{
+	cursor: pointer;
+}
+
+option:hover{
+	cursor: pointer;
+}
+
+table{
+	color: #D7DFF9;
+	background-color: #121D3F;
+	padding: 10px;
+}
+
+td{
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+input[type=submit]{
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	border: 1px solid #D7DFF9;
+}
+
+input[type=submit]:disabled {
+	background-color: #535565;
+}
+
+input[type=submit]:hover {
+	background-color: #354882;
+}
+
+input[type=submit]:disabled:hover {
+	cursor: not-allowed;
+	background-color: #535565;
+}
+
+button{
+	margin: 10px;
+	background-color: #121D3F;
+	color: #D7DFF9;
+	padding: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	border: 10px solid #000;
+}
+
+button:hover {
+	background-color: #354882;
+	cursor: pointer;
+}
+
+footer{
+	background: #566DB3;
+	color: #D7DFF9;
+	font-size: 15px; 
+	font-family: cursive;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+figure { 
+	display: inline-block;
+	padding: 5px;
+	margin: 0;
+}
+
+figcaption{
+	font-size: 15px;
+}
+
+.pers_info {
+	display: flex;
+}
+
+.info {
+	height: 100%;
+	width: 50%; 
+	margin-right: 10px;
+}
+
+/* Последний дочерний элемент не должен иметь отступа справа */
+.info:last-child {
+	margin-right: 0;
+}
